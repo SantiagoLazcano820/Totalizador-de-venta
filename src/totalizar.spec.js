@@ -75,4 +75,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularCostoEnvio(15, 3)).toEqual("Costo de envio: $10.5");
   });
+
+  it("deberia devolver mensaje de error si el peso es negativo", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularCostoEnvio(-15, 3)).toEqual("El peso es invalido");
+  });
 });

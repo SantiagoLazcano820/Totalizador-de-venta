@@ -109,6 +109,9 @@ class Totalizador {
     }
 
     calcularCostoEnvio(peso = 0, cantidad) {
+      if (peso < 0) {
+        return "El peso es invalido";
+      }
       const tarifa = this.obtenerTarifaEnvio(peso);
       const costoTotal = Number.parseFloat((tarifa * cantidad).toFixed(2));
       return "Costo de envio: $" + costoTotal;
@@ -123,6 +126,9 @@ class Totalizador {
       }
       if (precio <= 0) {
         return "El precio es invalido";
+      }
+      if (peso < 0) {
+        return "El peso es invalido";
       }
       const precioNeto = cantidad * precio;
 

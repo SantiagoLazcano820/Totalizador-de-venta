@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1d31ff03e60c84d0449fa6ed40ad16f7518be01f",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T22:51:25.000Z",
       "message": "feat: Mostrar el costo de envio para cada peso",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/1d31ff03e60c84d0449fa6ed40ad16f7518be01f"
     },
     "stats": {
       "total": 49,
@@ -319,6 +319,25 @@
     },
     "coverage": 81.11,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T23:05:42.000Z",
+      "message": "feat: Mostrar mensaje de error si el peso es invalido",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 80.85,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

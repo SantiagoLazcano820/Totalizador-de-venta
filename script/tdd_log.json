@@ -544,9 +544,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1d31ff03e60c84d0449fa6ed40ad16f7518be01f",
     "commitName": "feat: Mostrar el costo de envio para cada peso",
     "commitTimestamp": 1788821485805,
     "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788821724960,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788821940666,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar mensaje de error si el peso es invalido",
+    "commitTimestamp": 1788822342447,
+    "testId": 17
   }
 ]
