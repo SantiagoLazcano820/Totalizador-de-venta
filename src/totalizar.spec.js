@@ -10,4 +10,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularImpuesto("TX", 20, 3)).toEqual("Impuesto para TX(%6.25): $3.75");
   });
+
+  it("deberia devolver el descuento aplicado de la compra", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularDescuento(20, 3)).toEqual("Descuento (0%): 0");
+  });
 });

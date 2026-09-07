@@ -11,6 +11,15 @@ class Totalizador {
       CA: 0.0825
     }
 
+    obtenerTasaDescuento(precioNeto) {
+      if (precioNeto >= 30000) return 0.15;
+      if (precioNeto >= 10000) return 0.10;
+      if (precioNeto >= 7000) return 0.07;
+      if (precioNeto >= 3000) return 0.05;
+      if (precioNeto >= 1000) return 0.03;
+      return 0;
+    }
+
     calcularPrecioNeto(cantidad, precio) {
       const precioNeto = cantidad * precio;
       return "Precio neto (" + cantidad + "*$" + precio + "): $" + precioNeto;
@@ -19,9 +28,17 @@ class Totalizador {
     calcularImpuesto(estado = "", cantidad, precio) {
       const precioNeto = cantidad * precio;
       const tasa = this.tasas_impuesto[estado] || 0;
-      const porcentajeTexto = (tasa * 100).toFixed(2);
+      const porcentaje = (tasa * 100).toFixed(2);
       const impuesto = precioNeto * tasa;
-      return "Impuesto para " + estado + "(%" + porcentajeTexto + "): $" + impuesto;
+      return "Impuesto para " + estado + "(%" + porcentaje + "): $" + impuesto;
+    }
+
+    calcularDescuento(cantidad, precio) {
+      const precioNeto = cantidad * precio;
+      const tasa = this.obtenerTasaDescuento(precioNeto);
+      const porcentaje = tasa * 100;
+      const descuento = precioNeto * tasa;
+      return "Descuento (" + porcentaje + "%): " + descuento;
     }
 }
 

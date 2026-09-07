@@ -162,9 +162,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "013f2d32a7372076238a2fe931003c39826dc80a",
     "commitName": "refactor: Mostrar el impuesto aplicado a la compra",
     "commitTimestamp": 1788751176509,
     "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788752368072,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788752999043,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento aplicado de la compra",
+    "commitTimestamp": 1788753075276,
+    "testId": 4
   }
 ]

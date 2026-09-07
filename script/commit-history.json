@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "013f2d32a7372076238a2fe931003c39826dc80a",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T03:19:36.000Z",
       "message": "refactor: Mostrar el impuesto aplicado a la compra",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/013f2d32a7372076238a2fe931003c39826dc80a"
     },
     "stats": {
       "total": 44,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T03:51:15.000Z",
+      "message": "feat: Mostrar el descuento aplicado de la compra",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-09-07"
+    },
+    "coverage": 80,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
