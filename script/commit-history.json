@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd40ccb8198d77ec0b2eedb18dfddfe18c4f1f96",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T15:44:52.000Z",
       "message": "feat: Establer a California (CA) como estado por defecto",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/bd40ccb8198d77ec0b2eedb18dfddfe18c4f1f96"
     },
     "stats": {
       "total": 13,
@@ -243,6 +243,25 @@
     },
     "coverage": 77.78,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T16:15:26.000Z",
+      "message": "feat: Establer a 'Varios' como categoria por defecto de la lista desplegable",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-09-07"
+    },
+    "coverage": 78.18,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

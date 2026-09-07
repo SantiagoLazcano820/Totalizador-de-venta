@@ -384,9 +384,39 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd40ccb8198d77ec0b2eedb18dfddfe18c4f1f96",
     "commitName": "feat: Establer a California (CA) como estado por defecto",
     "commitTimestamp": 1788795892727,
     "testId": 12
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788796591583,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788796748965,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788797593673,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Establer a 'Varios' como categoria por defecto de la lista desplegable",
+    "commitTimestamp": 1788797726914,
+    "testId": 13
   }
 ]

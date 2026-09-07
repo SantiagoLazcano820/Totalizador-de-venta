@@ -62,7 +62,7 @@ class Totalizador {
       return "Descuento (" + porcentaje + "%): " + descuento;
     }
 
-    calcularPrecioTotal(estado = "CA", cantidad, precio) {
+    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios") {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  
@@ -90,6 +90,10 @@ class Totalizador {
 
     confirmarCompra() {
       return "Compra confirmada";
+    }
+
+    obtenerCategoria(categoria = "Varios") {
+      return categoria;
     }
 }
 

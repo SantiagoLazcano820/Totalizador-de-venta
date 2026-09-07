@@ -55,4 +55,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularImpuesto(undefined, 20, 3)).toEqual("Impuesto para CA(%8.25): $4.95");
   });
+
+  it("deberia usar 'Varios' como categoria por defecto de la lista desplegable", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.obtenerCategoria()).toEqual("Varios");
+  });
 });
