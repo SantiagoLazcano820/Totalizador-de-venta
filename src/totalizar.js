@@ -32,6 +32,9 @@ class Totalizador {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }
+      if (!this.tasas_impuesto[estado]) {
+        return "El estado no es valido";
+      }
       const precioNeto = cantidad * precio;
       const tasa = this.tasas_impuesto[estado] || 0;
       const porcentaje = (tasa * 100).toFixed(2);
@@ -54,6 +57,9 @@ class Totalizador {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  
+      if (!this.tasas_impuesto[estado]) {
+        return "El estado no es valido";
+      }
       const precioNeto = cantidad * precio;
 
       const tasaImpuesto = this.tasas_impuesto[estado] || 0;

@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1b81787be43083020c0520b32cbd94fc934fd8b",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T05:35:42.000Z",
       "message": "feat: Devolver mensaje de error si la cantidad es negativa o cero",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/a1b81787be43083020c0520b32cbd94fc934fd8b"
     },
     "stats": {
       "total": 19,
@@ -148,6 +148,25 @@
     },
     "coverage": 80,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T05:41:05.000Z",
+      "message": "feat: Devolver mensaje de error si el estado no es valido",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 79.55,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -258,9 +258,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1b81787be43083020c0520b32cbd94fc934fd8b",
     "commitName": "feat: Devolver mensaje de error si la cantidad es negativa o cero",
     "commitTimestamp": 1788759342947,
     "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788759559749,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788759638856,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Devolver mensaje de error si el estado no es valido",
+    "commitTimestamp": 1788759665796,
+    "testId": 8
   }
 ]
