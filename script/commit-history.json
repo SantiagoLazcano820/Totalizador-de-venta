@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "80ed0a49b2431f1259cb1bff9eda5767d20fef32",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T03:51:15.000Z",
       "message": "feat: Mostrar el descuento aplicado de la compra",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/80ed0a49b2431f1259cb1bff9eda5767d20fef32"
     },
     "stats": {
       "total": 26,
@@ -91,6 +91,25 @@
     },
     "coverage": 80,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T04:12:44.000Z",
+      "message": "feat: Mostrar el precio total de la compra",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-09-07"
+    },
+    "coverage": 84.38,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

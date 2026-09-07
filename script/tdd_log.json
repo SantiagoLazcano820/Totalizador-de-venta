@@ -184,9 +184,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80ed0a49b2431f1259cb1bff9eda5767d20fef32",
     "commitName": "feat: Mostrar el descuento aplicado de la compra",
     "commitTimestamp": 1788753075276,
     "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788753270156,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788754082157,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788754167112,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total de la compra",
+    "commitTimestamp": 1788754365091,
+    "testId": 5
   }
 ]

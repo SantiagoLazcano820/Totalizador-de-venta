@@ -40,6 +40,19 @@ class Totalizador {
       const descuento = precioNeto * tasa;
       return "Descuento (" + porcentaje + "%): " + descuento;
     }
+
+    calcularPrecioTotal(estado = "", cantidad, precio) {
+      const precioNeto = cantidad * precio;
+
+      const tasaImpuesto = this.tasas_impuesto[estado] || 0;
+      const impuesto = precioNeto * tasaImpuesto;
+
+      const tasaDescuento = this.obtenerTasaDescuento(precioNeto);
+      const descuento = precioNeto * tasaDescuento;
+      const precioTotal = precioNeto + impuesto - descuento
+
+      return "Precio total (descuento e impuesto): $" + precioTotal;
+    }
 }
 
 export default Totalizador;

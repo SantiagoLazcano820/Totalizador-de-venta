@@ -15,4 +15,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularDescuento(20, 3)).toEqual("Descuento (0%): 0");
   });
+
+  it("deberia devolver el precio total final", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularPrecioTotal("TX", 20, 3)).toEqual("Precio total (descuento e impuesto): $63.75");
+  });
 });
