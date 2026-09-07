@@ -78,9 +78,93 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "36e708333a3b306008fae83624eb24a9f7d9963d",
     "commitName": "refactor: Refactorizacion de la funcion calcularPrecioNeto",
     "commitTimestamp": 1788746793501,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788747393946,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788747771811,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788747853375,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788748680628,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788748695074,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 2,
+    "numTotalTests": 3,
+    "timestamp": 1788749870418,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788750072020,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788750229619,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788750860464,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "36e708333a3b306008fae83624eb24a9f7d9963d",
+    "commitName": "refactor: Mostrar el impuesto aplicado a la compra",
+    "commitTimestamp": 1788751048485,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Mostrar el impuesto aplicado a la compra",
+    "commitTimestamp": 1788751176509,
+    "testId": 3
   }
 ]

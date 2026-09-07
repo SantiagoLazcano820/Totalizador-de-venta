@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "36e708333a3b306008fae83624eb24a9f7d9963d",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T02:06:33.000Z",
       "message": "refactor: Refactorizacion de la funcion calcularPrecioNeto",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/36e708333a3b306008fae83624eb24a9f7d9963d"
     },
     "stats": {
       "total": 13,
@@ -34,6 +34,44 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "36e708333a3b306008fae83624eb24a9f7d9963d",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T03:17:28.000Z",
+      "message": "refactor: Mostrar el impuesto aplicado a la compra",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/36e708333a3b306008fae83624eb24a9f7d9963d"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 36,
+      "deletions": 8,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T03:19:36.000Z",
+      "message": "refactor: Mostrar el impuesto aplicado a la compra",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 36,
+      "deletions": 8,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
