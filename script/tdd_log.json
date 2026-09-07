@@ -452,9 +452,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "434de06f8c2805ce9c74c4e6203f80b6899eda77",
     "commitName": "feat: Mostrar el impuesto adicional segun la categoria de producto",
     "commitTimestamp": 1788807913016,
     "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788813056223,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788813295831,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento adicional segun la categoria",
+    "commitTimestamp": 1788813357310,
+    "testId": 15
   }
 ]

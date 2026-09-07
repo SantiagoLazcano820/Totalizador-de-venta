@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "434de06f8c2805ce9c74c4e6203f80b6899eda77",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T19:05:12.000Z",
       "message": "feat: Mostrar el impuesto adicional segun la categoria de producto",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/434de06f8c2805ce9c74c4e6203f80b6899eda77"
     },
     "stats": {
       "total": 38,
@@ -281,6 +281,25 @@
     },
     "coverage": 80.33,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T20:35:57.000Z",
+      "message": "feat: Mostrar el descuento adicional segun la categoria",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 23,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 82.09,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

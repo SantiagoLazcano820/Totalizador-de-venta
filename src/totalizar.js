@@ -30,6 +30,16 @@ class Totalizador {
       Varios: 0.00
     };
 
+    descuentos_categoria = {
+      Alimentos: 0.02,
+      Bebidas: 0.00,
+      Escritorio: 0.015,
+      Muebles: 0.00,
+      Electrónicos: 0.01,
+      Vestimenta: 0.00,
+      Varios: 0.00
+    };
+
     calcularPrecioNeto(cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
@@ -78,6 +88,14 @@ class Totalizador {
       const porcentaje = (tasa * 100).toFixed(2);
       const impuesto = precioNeto * tasa;
       return "Impuesto para " + categoria + "(%" + porcentaje + "): $" + impuesto;
+    }
+
+    calcularDescuentoCategoria(categoria = "Varios", cantidad, precio) {
+      const precioNeto = cantidad * precio;
+      const tasa = this.descuentos_categoria[categoria] || 0;
+      const porcentajeTexto = (tasa * 100).toFixed(2);
+      const descuento = precioNeto * tasa;
+      return "Descuento para " + categoria + "(%" + porcentajeTexto + "): $" + descuento;
     }
 
     calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios") {
