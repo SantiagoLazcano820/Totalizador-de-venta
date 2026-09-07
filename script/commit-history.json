@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "fbb4e8ee8723a8877aeddb7c422947f919272e4e",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T01:42:39.000Z",
       "message": "feat: Devuelve el precio neto de la compra",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/fbb4e8ee8723a8877aeddb7c422947f919272e4e"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T02:06:33.000Z",
+      "message": "refactor: Refactorizacion de la funcion calcularPrecioNeto",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 7,
+      "deletions": 6,
       "date": "2026-09-07"
     },
     "coverage": 100,
