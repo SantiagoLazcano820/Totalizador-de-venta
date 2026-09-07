@@ -23,6 +23,7 @@ form.addEventListener("submit", (event) => {
     <p>${totalizar.calcularPrecioNeto(cant, prec)}</p>
     <p>${totalizar.calcularDescuento(cant, prec)}</p>
     <p>${totalizar.calcularImpuesto(est, cant, prec)}</p>
+    <p>${totalizador.calcularImpuestoCategoria(cat, cant, prec)}</p>
     <p>${totalizar.calcularPrecioTotal(est, cant, prec, cat)}</p>
   `;
 });

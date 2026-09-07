@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2596f01aabcc9d7ee0237931811ad1d7ac8f30e7",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T16:15:26.000Z",
       "message": "feat: Establer a 'Varios' como categoria por defecto de la lista desplegable",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/2596f01aabcc9d7ee0237931811ad1d7ac8f30e7"
     },
     "stats": {
       "total": 26,
@@ -262,6 +262,25 @@
     },
     "coverage": 78.18,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T19:05:12.000Z",
+      "message": "feat: Mostrar el impuesto adicional segun la categoria de producto",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 31,
+      "deletions": 7,
+      "date": "2026-09-07"
+    },
+    "coverage": 80.33,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

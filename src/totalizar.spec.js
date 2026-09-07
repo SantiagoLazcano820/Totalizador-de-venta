@@ -60,4 +60,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.obtenerCategoria()).toEqual("Varios");
   });
+
+  it("deberia devolver el impuesto adicional aplicado según la categoría de producto", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularImpuestoCategoria("Bebidas", 20, 3)).toEqual("Impuesto para Bebidas(%7.00): $4.2");
+  });
 });
