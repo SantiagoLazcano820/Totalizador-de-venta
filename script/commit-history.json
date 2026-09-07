@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a4be0653dd98ca45cb2b69885e58ce8a4953a943",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T20:35:57.000Z",
       "message": "feat: Mostrar el descuento adicional segun la categoria",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/a4be0653dd98ca45cb2b69885e58ce8a4953a943"
     },
     "stats": {
       "total": 23,
@@ -300,6 +300,25 @@
     },
     "coverage": 82.09,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T22:51:25.000Z",
+      "message": "feat: Mostrar el costo de envio para cada peso",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 49,
+      "additions": 43,
+      "deletions": 6,
+      "date": "2026-09-07"
+    },
+    "coverage": 81.11,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -474,9 +474,79 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a4be0653dd98ca45cb2b69885e58ce8a4953a943",
     "commitName": "feat: Mostrar el descuento adicional segun la categoria",
     "commitTimestamp": 1788813357310,
     "testId": 15
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788813386634,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788813406828,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788816835226,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788816839900,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788820827892,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788821071953,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788821106393,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788821371791,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el costo de envio para cada peso",
+    "commitTimestamp": 1788821485805,
+    "testId": 16
   }
 ]

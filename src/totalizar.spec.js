@@ -70,4 +70,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularDescuentoCategoria("Alimentos", 20, 3)).toEqual("Descuento para Alimentos(%2.00): $1.2");
   });
+
+  it("deberia calcular el costo de envio para cada peso", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularCostoEnvio(15, 3)).toEqual("Costo de envio: $10.5");
+  });
 });

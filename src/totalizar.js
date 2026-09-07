@@ -40,6 +40,16 @@ class Totalizador {
       Varios: 0.00
     };
 
+    obtenerTarifaEnvio(peso = 0) {
+      if (peso > 200) return 9;
+      if (peso >= 101) return 8;
+      if (peso >= 81) return 6.5;
+      if (peso >= 41) return 6;
+      if (peso >= 21) return 5;
+      if (peso >= 11) return 3.5;
+      if (peso >= 0) return 0;
+    }
+
     calcularPrecioNeto(cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
@@ -98,7 +108,13 @@ class Totalizador {
       return "Descuento para " + categoria + "(%" + porcentajeTexto + "): $" + descuento;
     }
 
-    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios") {
+    calcularCostoEnvio(peso = 0, cantidad) {
+      const tarifa = this.obtenerTarifaEnvio(peso);
+      const costoTotal = Number.parseFloat((tarifa * cantidad).toFixed(2));
+      return "Costo de envio: $" + costoTotal;
+    }
+
+    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  
@@ -115,7 +131,16 @@ class Totalizador {
 
       const tasaDescuento = this.obtenerTasaDescuento(precioNeto);
       const descuento = precioNeto * tasaDescuento;
-      const precioTotal = precioNeto + impuesto - descuento
+
+      const tasaImpuestoCat = this.impuestos_categoria[categoria] || 0;
+      const impuestoCat = precioNeto * tasaImpuestoCat;
+
+      const tasaDescuentoCat = this.descuentos_categoria[categoria] || 0;
+      const descuentoCat = precioNeto * tasaDescuentoCat;
+
+      const tarifa = this.obtenerTarifaEnvio(peso);
+      const costoEnvio = tarifa * cantidad
+      const precioTotal = precioNeto + impuesto + impuestoCat - descuento - descuentoCat + costoEnvio;
 
       return "Precio total (descuento e impuesto): $" + precioTotal;
     }
