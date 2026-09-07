@@ -40,4 +40,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularPrecioNeto(5, -3)).toEqual("El precio es invalido");
   });
+
+  it("deberia devolver mensaje de confirmacion al cancelar la compra", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.cancelarCompra()).toEqual("Compra cancelada");
+  });
 });

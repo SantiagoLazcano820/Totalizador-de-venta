@@ -302,9 +302,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80c86600cddd508a7f3a23906c473b2048900cb8",
     "commitName": "feat: Devolver mensaje de error si el precio es invalido",
     "commitTimestamp": 1788759890846,
     "testId": 9
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788760091451,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788760127608,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Devolver mensaje de confirmacion al cancelar la compra",
+    "commitTimestamp": 1788760679433,
+    "testId": 10
   }
 ]

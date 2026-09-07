@@ -83,6 +83,10 @@ class Totalizador {
 
       return "Precio total (descuento e impuesto): $" + precioTotal;
     }
+
+    cancelarCompra() {
+        return "Compra cancelada";
+    }
 }
 
 export default Totalizador;
