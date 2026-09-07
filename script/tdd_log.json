@@ -280,9 +280,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "601da1f4ce9ed93480d6dda00dccd66767004d41",
     "commitName": "feat: Devolver mensaje de error si el estado no es valido",
     "commitTimestamp": 1788759665796,
     "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788759799721,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788759871566,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Devolver mensaje de error si el precio es invalido",
+    "commitTimestamp": 1788759890846,
+    "testId": 9
   }
 ]

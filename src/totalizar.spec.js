@@ -35,4 +35,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularImpuesto("NY", 20, 3)).toEqual("El estado no es valido");
   });
+
+  it("deberia devolver mensaje de error si el precio es negativo o cero", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularPrecioNeto(5, -3)).toEqual("El precio es invalido");
+  });
 });

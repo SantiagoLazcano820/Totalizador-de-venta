@@ -24,6 +24,9 @@ class Totalizador {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }
+      if (precio <= 0) {
+        return "El precio es invalido";
+      }
       const precioNeto = cantidad * precio;
       return "Precio neto (" + cantidad + "*$" + precio + "): $" + precioNeto;
     } 
@@ -35,6 +38,9 @@ class Totalizador {
       if (!this.tasas_impuesto[estado]) {
         return "El estado no es valido";
       }
+      if (precio <= 0) {
+        return "El precio es invalido";
+      }
       const precioNeto = cantidad * precio;
       const tasa = this.tasas_impuesto[estado] || 0;
       const porcentaje = (tasa * 100).toFixed(2);
@@ -45,6 +51,9 @@ class Totalizador {
     calcularDescuento(cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
+      }
+      if (precio <= 0) {
+        return "El precio es invalido";
       }
       const precioNeto = cantidad * precio;
       const tasa = this.obtenerTasaDescuento(precioNeto);
@@ -59,6 +68,9 @@ class Totalizador {
       }  
       if (!this.tasas_impuesto[estado]) {
         return "El estado no es valido";
+      }
+      if (precio <= 0) {
+        return "El precio es invalido";
       }
       const precioNeto = cantidad * precio;
 
