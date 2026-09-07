@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "19cb4bc34cec83e1a05a45d05723b188d3edc9c3",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T04:12:44.000Z",
       "message": "feat: Mostrar el precio total de la compra",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/19cb4bc34cec83e1a05a45d05723b188d3edc9c3"
     },
     "stats": {
       "total": 20,
@@ -110,6 +110,25 @@
     },
     "coverage": 84.38,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T04:37:29.000Z",
+      "message": "feat: Elegir el estado de una lista desplegable",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 56,
+      "additions": 40,
+      "deletions": 16,
+      "date": "2026-09-07"
+    },
+    "coverage": 84.38,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

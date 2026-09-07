@@ -20,4 +20,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularPrecioTotal("TX", 20, 3)).toEqual("Precio total (descuento e impuesto): $63.75");
   });
+
+  it("deberia devolver el impuesto correctamente al elegir un estado de la lista desplegable", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularImpuesto("UT", 20, 3)).toEqual("Impuesto para UT(%6.65): $3.99");
+  });
 });

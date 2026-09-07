@@ -214,9 +214,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "19cb4bc34cec83e1a05a45d05723b188d3edc9c3",
     "commitName": "feat: Mostrar el precio total de la compra",
     "commitTimestamp": 1788754365091,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788755699285,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Elegir el estado de una lista desplegable",
+    "commitTimestamp": 1788755849632,
+    "testId": 6
   }
 ]

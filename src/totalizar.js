@@ -53,6 +53,8 @@ class Totalizador {
 
       return "Precio total (descuento e impuesto): $" + precioTotal;
     }
+
+    
 }
 
 export default Totalizador;

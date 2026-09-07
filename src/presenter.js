@@ -1,15 +1,24 @@
-import sumar from "./sumador";
+import Totalizador from "./totalizar.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const totalizar = new Totalizador();
+
+const cantidad = document.querySelector("#cantidad");
+const precio = document.querySelector("#precio");
+const estado = document.querySelector("#estado");
+const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const cant = Number.parseInt(cantidad.value);
+  const prec = Number.parseFloat(precio.value); 
+  const est = estado.value;
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = `
+    <p>${totalizar.calcularPrecioNeto(cant, prec)}</p>
+    <p>${totalizar.calcularDescuento(cant, prec)}</p>
+    <p>${totalizar.calcularImpuesto(est, cant, prec)}</p>
+    <p>${totalizar.calcularPrecioTotal(est, cant, prec)}</p>
+  `;
 });
