@@ -354,9 +354,39 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "242422e4823a5ff132c0e033c81a72abe1100005",
     "commitName": "feat: Devolver mensaje de confirmacion de la compra",
     "commitTimestamp": 1788761810509,
     "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788794377862,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788795536563,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788795734836,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Establer a California (CA) como estado por defecto",
+    "commitTimestamp": 1788795892727,
+    "testId": 12
   }
 ]

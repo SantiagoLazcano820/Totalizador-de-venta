@@ -28,7 +28,7 @@ form.addEventListener("submit", (event) => {
 cancelar.addEventListener("click", () => {
   cantidad.value = "";
   precio.value = "";
-  estado.selectedIndex = 0;
+  estado.value = "CA";
 
   div.innerHTML = `<p>${totalizar.cancelarCompra()}</p>`;
 });

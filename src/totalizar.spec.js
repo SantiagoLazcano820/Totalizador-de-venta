@@ -50,4 +50,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.confirmarCompra()).toEqual("Compra confirmada");
   });
+
+  it("deberia usar California (CA) como estado por defecto al calcular el impuesto", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularImpuesto(undefined, 20, 3)).toEqual("Impuesto para CA(%8.25): $4.95");
+  });
 });

@@ -31,7 +31,7 @@ class Totalizador {
       return "Precio neto (" + cantidad + "*$" + precio + "): $" + precioNeto;
     } 
 
-    calcularImpuesto(estado = "", cantidad, precio) {
+    calcularImpuesto(estado = "CA", cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }
@@ -62,7 +62,7 @@ class Totalizador {
       return "Descuento (" + porcentaje + "%): " + descuento;
     }
 
-    calcularPrecioTotal(estado = "", cantidad, precio) {
+    calcularPrecioTotal(estado = "CA", cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  

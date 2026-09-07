@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "242422e4823a5ff132c0e033c81a72abe1100005",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T06:16:50.000Z",
       "message": "feat: Devolver mensaje de confirmacion de la compra",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/242422e4823a5ff132c0e033c81a72abe1100005"
     },
     "stats": {
       "total": 33,
@@ -224,6 +224,25 @@
     },
     "coverage": 77.78,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T15:44:52.000Z",
+      "message": "feat: Establer a California (CA) como estado por defecto",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 9,
+      "deletions": 4,
+      "date": "2026-09-07"
+    },
+    "coverage": 77.78,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
