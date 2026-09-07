@@ -45,4 +45,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.cancelarCompra()).toEqual("Compra cancelada");
   });
+
+  it("deberia devolver mensaje de confirmacion al confirmar la compra", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.confirmarCompra()).toEqual("Compra confirmada");
+  });
 });

@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c20fcc5354533870b1d2c4c6205682df6bd36c0",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T05:57:59.000Z",
       "message": "feat: Devolver mensaje de confirmacion al cancelar la compra",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/3c20fcc5354533870b1d2c4c6205682df6bd36c0"
     },
     "stats": {
       "total": 31,
@@ -205,6 +205,25 @@
     },
     "coverage": 77.36,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T06:16:50.000Z",
+      "message": "feat: Devolver mensaje de confirmacion de la compra",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 24,
+      "deletions": 9,
+      "date": "2026-09-07"
+    },
+    "coverage": 77.78,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

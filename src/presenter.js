@@ -8,6 +8,7 @@ const estado = document.querySelector("#estado");
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 const cancelar = document.querySelector("#cancelar-button");
+const confirmar = document.querySelector("#confirmar-button");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -16,12 +17,12 @@ form.addEventListener("submit", (event) => {
   const prec = Number.parseFloat(precio.value); 
   const est = estado.value;
 
-  div.innerHTML = 
-    "<p>" + totalizar.calcularPrecioNeto(cant, prec) + "</p>"
-    "<p>" + totalizar.calcularDescuento(cant, prec) + "</p>"
-    "<p>" + totalizar.calcularImpuesto(est, cant, prec) + "</p>"
-    "<p>" + totalizar.calcularPrecioTotal(est, cant, prec) + "</p>"
-  ;
+  div.innerHTML = `
+    <p>${totalizar.calcularPrecioNeto(cant, prec)}</p>
+    <p>${totalizar.calcularDescuento(cant, prec)}</p>
+    <p>${totalizar.calcularImpuesto(est, cant, prec)}</p>
+    <p>${totalizar.calcularPrecioTotal(est, cant, prec)}</p>
+  `;
 });
 
 cancelar.addEventListener("click", () => {
@@ -29,5 +30,9 @@ cancelar.addEventListener("click", () => {
   precio.value = "";
   estado.selectedIndex = 0;
 
-  div.innerHTML = "<p>" + totalizar.cancelarCompra() + "</p>";
+  div.innerHTML = `<p>${totalizar.cancelarCompra()}</p>`;
+});
+
+confirmar.addEventListener("click", () => {
+  div.innerHTML = `<p>${totalizar.confirmarCompra()}</p>`;
 });

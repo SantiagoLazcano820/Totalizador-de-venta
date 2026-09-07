@@ -85,7 +85,11 @@ class Totalizador {
     }
 
     cancelarCompra() {
-        return "Compra cancelada";
+      return "Compra cancelada";
+    }
+
+    confirmarCompra() {
+      return "Compra confirmada";
     }
 }
 

@@ -324,9 +324,39 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3c20fcc5354533870b1d2c4c6205682df6bd36c0",
     "commitName": "feat: Devolver mensaje de confirmacion al cancelar la compra",
     "commitTimestamp": 1788760679433,
     "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788760802711,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788760821611,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788760862516,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Devolver mensaje de confirmacion de la compra",
+    "commitTimestamp": 1788761810509,
+    "testId": 11
   }
 ]
