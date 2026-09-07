@@ -228,9 +228,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0843a4f76e4881f71a00756b7143f2ea5653a1b5",
     "commitName": "feat: Elegir el estado de una lista desplegable",
     "commitTimestamp": 1788755849632,
     "testId": 6
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788759108880,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788759253683,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788759296177,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Devolver mensaje de error si la cantidad es negativa o cero",
+    "commitTimestamp": 1788759342947,
+    "testId": 7
   }
 ]

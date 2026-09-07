@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0843a4f76e4881f71a00756b7143f2ea5653a1b5",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T04:37:29.000Z",
       "message": "feat: Elegir el estado de una lista desplegable",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/0843a4f76e4881f71a00756b7143f2ea5653a1b5"
     },
     "stats": {
       "total": 56,
@@ -129,6 +129,25 @@
     },
     "coverage": 84.38,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-07T05:35:42.000Z",
+      "message": "feat: Devolver mensaje de error si la cantidad es negativa o cero",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 17,
+      "deletions": 2,
+      "date": "2026-09-07"
+    },
+    "coverage": 80,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

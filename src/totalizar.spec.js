@@ -25,4 +25,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularImpuesto("UT", 20, 3)).toEqual("Impuesto para UT(%6.65): $3.99");
   });
+
+  it("deberia devolver mensaje de error si la cantidad es negativa o cero", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularPrecioNeto(-5, 3)).toEqual("La cantidad es invalida");
+  });
 });
