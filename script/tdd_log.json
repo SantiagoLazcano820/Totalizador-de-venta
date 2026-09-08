@@ -674,9 +674,39 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2fc8e5e16794d4cde2e40dff0d7cfffa7f574466",
     "commitName": "feat: Aplicar 0% de descuento para cliente Normal (por defecto).",
     "commitTimestamp": 1788843029969,
     "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788845083230,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788846362746,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788846846322,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar un descuento fijo de  cuando sea cliente Recurrente",
+    "commitTimestamp": 1788846983194,
+    "testId": 20
   }
 ]

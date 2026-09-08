@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2fc8e5e16794d4cde2e40dff0d7cfffa7f574466",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-08T04:50:29.000Z",
       "message": "feat: Aplicar 0% de descuento para cliente Normal (por defecto).",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/2fc8e5e16794d4cde2e40dff0d7cfffa7f574466"
     },
     "stats": {
       "total": 10,
@@ -376,6 +376,25 @@
     },
     "coverage": 83.65,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-08T05:56:23.000Z",
+      "message": "feat: Aplicar un descuento fijo de  cuando sea cliente Recurrente",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 48,
+      "additions": 39,
+      "deletions": 9,
+      "date": "2026-09-08"
+    },
+    "coverage": 84.21,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

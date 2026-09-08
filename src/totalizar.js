@@ -57,6 +57,13 @@ class Totalizador {
       VIP: 0.015
     }
 
+    descuentos_fijos_cliente = {
+      Normal: 0,
+      Recurrente: 100,
+      "Antiguo Recurrente": 0,
+      Especial: 0
+    };
+
     calcularPrecioNeto(cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
@@ -125,14 +132,29 @@ class Totalizador {
     }
 
     calcularDescuentoEnvioCliente(tipoCliente = "Normal", peso = 0, cantidad) {
-    const tarifa = this.obtenerTarifaEnvio(peso);
-    const costoEnvioBase = tarifa * cantidad;
-    const tasa = this.descuentos_cliente[tipoCliente] || 0;
-    const porcentajeTexto = (tasa * 100).toFixed(2);
-    const descuentoEnvio = Number.parseFloat((costoEnvioBase * tasa).toFixed(2));
-    
-    return "Descuento envio cliente " + tipoCliente + "(%" + porcentajeTexto + "): $" + descuentoEnvio;
-  }
+      const tarifa = this.obtenerTarifaEnvio(peso);
+      const costoEnvioBase = tarifa * cantidad;
+      const tasa = this.descuentos_cliente[tipoCliente] || 0;
+      const porcentajeTexto = (tasa * 100).toFixed(2);
+      const descuentoEnvio = Number.parseFloat((costoEnvioBase * tasa).toFixed(2));
+      return "Descuento envio cliente " + tipoCliente + "(%" + porcentajeTexto + "): $" + descuentoEnvio;
+    }
+
+    obtenerMontoDescuentoFijoCliente(tipoCliente = "Normal", categoria = "Varios", precioNeto = 0) {
+      if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
+        return 100;
+      }
+      if (tipoCliente === "Especial" && categoria === "Electrónicos" && precioNeto > 7000) {
+        return 200;
+      }
+      return 0;
+    }
+
+    calcularDescuentoFijoCliente(tipoCliente = "Normal", categoria = "Varios", cantidad, precio) {
+      const precioNeto = cantidad * precio;
+      const descuentoFijo = this.obtenerMontoDescuentoFijoCliente(tipoCliente, categoria, precioNeto);
+      return "Descuento fijo cliente: $" + descuentoFijo;
+    }
 
     calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0, tipoCliente = "Normal") {
       if (cantidad <= 0) {
@@ -161,13 +183,15 @@ class Totalizador {
       const tasaDescuentoCat = this.descuentos_categoria[categoria] || 0;
       const descuentoCat = precioNeto * tasaDescuentoCat;
 
+      const descuentoFijoCli = this.obtenerMontoDescuentoFijoCliente(tipoCliente, categoria, precioNeto);
+
       const tarifa = this.obtenerTarifaEnvio(peso);
       const costoEnvio = tarifa * cantidad;
 
       const tasaDescuentoCli = this.descuentos_cliente[tipoCliente] || 0;
       const descuentoTipoCli = costoEnvio * tasaDescuentoCli;
       const costoEnvioFinal = costoEnvio - descuentoTipoCli;
-      const precioTotal = precioNeto + impuesto + impuestoCat - descuento - descuentoCat - descuentoTipoCli + costoEnvioFinal;
+      const precioTotal = precioNeto + impuesto + impuestoCat - descuento - descuentoCat - descuentoFijoCli + costoEnvioFinal;
 
       return "Precio total (descuento e impuesto): $" + precioTotal;
     }

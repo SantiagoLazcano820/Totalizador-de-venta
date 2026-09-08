@@ -91,4 +91,9 @@ describe("Totalizador", () => {
     expect(totalizador.calcularDescuentoEnvioCliente(undefined, 41, 10)).toEqual("Descuento envio cliente Normal(%0.00): $0");
   });
 
+  it("deberia aplicar un descuento fijo de $100 cuando sea cliente Recurrente", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularDescuentoFijoCliente("Recurrente", "Alimentos", 100, 40)).toEqual("Descuento fijo cliente: $100");
+  });
+
 });

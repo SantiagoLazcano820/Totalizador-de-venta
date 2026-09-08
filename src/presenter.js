@@ -31,6 +31,7 @@ form.addEventListener("submit", (event) => {
     <p>${totalizar.calcularImpuestoCategoria(cat, cant, prec)}</p>
     <p>${totalizar.calcularCostoEnvio(pe, cant)}</p>
     <p>${totalizar.calcularDescuentoTipoCliente(tipoCli, pe, cant)}</p>
+    <p>${totalizar.calcularDescuentoFijoCliente(tipoCli, cat, cant, prec)}</p>
     <p>${totalizar.calcularPrecioTotal(est, cant, prec, cat, pe, tipoCli)}</p>
   `;
 });
