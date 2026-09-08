@@ -124,7 +124,7 @@ class Totalizador {
       return "Costo de envio: $" + costoTotal;
     }
 
-    calcularDescuentoEnvioCliente(tipoCliente, peso = 0, cantidad) {
+    calcularDescuentoEnvioCliente(tipoCliente = "Normal", peso = 0, cantidad) {
     const tarifa = this.obtenerTarifaEnvio(peso);
     const costoEnvioBase = tarifa * cantidad;
     const tasa = this.descuentos_cliente[tipoCliente] || 0;
@@ -134,7 +134,7 @@ class Totalizador {
     return "Descuento envio cliente " + tipoCliente + "(%" + porcentajeTexto + "): $" + descuentoEnvio;
   }
 
-    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0, tipoCliente) {
+    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0, tipoCliente = "Normal") {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  

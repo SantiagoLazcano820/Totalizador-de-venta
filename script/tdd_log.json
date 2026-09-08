@@ -620,9 +620,63 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "798c85b061b3091eefa8320eb39616a967a0ead4",
     "commitName": "feat: Mostrar el descuento aplicado al costo segun el tipo de cliente",
     "commitTimestamp": 1788841866706,
     "testId": 18
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788842010499,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788842020025,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788842208754,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788842598113,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788842782006,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788842813991,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar 0% de descuento para cliente Normal (por defecto).",
+    "commitTimestamp": 1788843029969,
+    "testId": 19
   }
 ]

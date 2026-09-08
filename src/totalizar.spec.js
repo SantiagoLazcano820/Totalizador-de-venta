@@ -85,4 +85,10 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularDescuentoEnvioCliente("Recurrente", 41, 10)).toEqual("Descuento envio cliente Recurrente(%0.50): $0.3");
   });
+
+  it("deberia aplicar 0% de descuento para cliente Normal (por defecto)", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularDescuentoEnvioCliente(undefined, 41, 10)).toEqual("Descuento envio cliente Normal(%0.00): $0");
+  });
+
 });
