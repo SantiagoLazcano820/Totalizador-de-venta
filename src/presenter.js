@@ -17,7 +17,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const cant = Number.parseInt(cantidad.value);
-  const prec = Number.parseFloat(precio.value); 
+  const prec = Number.parseInt(precio.value); 
   const est = estado.value;
   const cat = categoria.value;
   const pe = Number.parseInt(peso.value);
@@ -30,7 +30,7 @@ form.addEventListener("submit", (event) => {
     <p>${totalizar.calcularImpuesto(est, cant, prec)}</p>
     <p>${totalizar.calcularImpuestoCategoria(cat, cant, prec)}</p>
     <p>${totalizar.calcularCostoEnvio(pe, cant)}</p>
-    <p>${totalizar.calcularDescuentoTipoCliente(tipoCli, pe, cant)}</p>
+    <p>${totalizar.calcularDescuentoEnvioCliente(tipoCli, pe, cant)}</p>
     <p>${totalizar.calcularDescuentoFijoCliente(tipoCli, cat, cant, prec)}</p>
     <p>${totalizar.calcularPrecioTotal(est, cant, prec, cat, pe, tipoCli)}</p>
   `;

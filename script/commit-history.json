@@ -437,17 +437,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ae14dcd2a6b9baac32c741845e9be4253c81dfea",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-08T06:19:56.000Z",
       "message": "feat: Mostrar un mensaje de error si falta el precio",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/ae14dcd2a6b9baac32c741845e9be4253c81dfea"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 85.59,
+    "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-08T06:27:53.000Z",
+      "message": "fix: error en el form del presenter",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-09-08"
     },
     "coverage": 85.59,

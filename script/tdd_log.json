@@ -786,9 +786,15 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ae14dcd2a6b9baac32c741845e9be4253c81dfea",
     "commitName": "feat: Mostrar un mensaje de error si falta el precio",
     "commitTimestamp": 1788848396120,
     "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: error en el form del presenter",
+    "commitTimestamp": 1788848873544,
+    "testId": 24
   }
 ]
