@@ -734,9 +734,23 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "91aff6723e846854a47e254ef970d67d96da10fb",
     "commitName": "feat: Mostrar un mensaje de error si falta la cantidad",
     "commitTimestamp": 1788847764328,
     "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788847808286,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar un mensaje de error si falta el precio",
+    "commitTimestamp": 1788847929489,
+    "testId": 22
   }
 ]

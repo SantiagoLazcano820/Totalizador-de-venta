@@ -160,6 +160,9 @@ class Totalizador {
       if (cantidad === undefined || cantidad === null || Number.isNaN(cantidad)) {
         return "La cantidad es un campo obligatorio";
       }
+      if (precio === undefined || precio === null || Number.isNaN(precio)) {
+        return "El precio es un campo obligatorio";
+      }
       
       if (cantidad <= 0) {
         return "La cantidad es invalida";
