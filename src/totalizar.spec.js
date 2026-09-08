@@ -91,9 +91,17 @@ describe("Totalizador", () => {
     expect(totalizador.calcularDescuentoEnvioCliente(undefined, 41, 10)).toEqual("Descuento envio cliente Normal(%0.00): $0");
   });
 
-  it("deberia aplicar un descuento fijo de $100 cuando sea cliente Recurrente", () => {
+  it("deberia aplicar un descuento fijo de $100 cuando sea cliente Recurrente y de $200 cuando sea cliente Especial", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularDescuentoFijoCliente("Recurrente", "Alimentos", 100, 40)).toEqual("Descuento fijo cliente: $100");
   });
+  it("deberia aplicar un descuento fijo de $100 cuando sea cliente Recurrente y de $200 cuando sea cliente Especial", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularDescuentoFijoCliente("Especial", "Electrónicos", 100, 80)).toEqual("Descuento fijo cliente: $200");
+  });
 
+  it("deberia devolver un mensaje de error si falta la cantidad", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularPrecioTotal("CA", undefined, 10, "Varios", 0, "Normal")).toEqual("La cantidad es un campo obligatorio");
+  });
 });

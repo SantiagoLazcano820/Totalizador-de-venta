@@ -704,9 +704,39 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "04420bcabe33df9873ec1ea5ca743aed5963b84d",
     "commitName": "feat: Aplicar un descuento fijo de  cuando sea cliente Recurrente",
     "commitTimestamp": 1788846983194,
     "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788847133378,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788847676186,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788847720775,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar un mensaje de error si falta la cantidad",
+    "commitTimestamp": 1788847764328,
+    "testId": 21
   }
 ]

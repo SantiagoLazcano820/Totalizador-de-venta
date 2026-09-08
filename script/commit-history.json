@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "04420bcabe33df9873ec1ea5ca743aed5963b84d",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-08T05:56:23.000Z",
       "message": "feat: Aplicar un descuento fijo de  cuando sea cliente Recurrente",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/04420bcabe33df9873ec1ea5ca743aed5963b84d"
     },
     "stats": {
       "total": 48,
@@ -395,6 +395,25 @@
     },
     "coverage": 84.21,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-08T06:09:24.000Z",
+      "message": "feat: Mostrar un mensaje de error si falta la cantidad",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 85.34,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

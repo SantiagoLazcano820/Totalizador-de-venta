@@ -157,6 +157,10 @@ class Totalizador {
     }
 
     calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0, tipoCliente = "Normal") {
+      if (cantidad === undefined || cantidad === null || Number.isNaN(cantidad)) {
+        return "La cantidad es un campo obligatorio";
+      }
+      
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  
