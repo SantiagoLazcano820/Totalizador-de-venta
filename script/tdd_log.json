@@ -748,9 +748,47 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b0ee5977c17809268b5da286b84fd64370fc4fa2",
     "commitName": "feat: Mostrar un mensaje de error si falta el precio",
     "commitTimestamp": 1788847929489,
     "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788848032273,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788848056450,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788848275303,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788848314057,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar un mensaje de error si falta el precio",
+    "commitTimestamp": 1788848396120,
+    "testId": 23
   }
 ]

@@ -104,4 +104,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularPrecioTotal("CA", undefined, 10, "Varios", 0, "Normal")).toEqual("La cantidad es un campo obligatorio");
   });
+
+  it("deberia devolver un mensaje de error si falta el precio", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularPrecioTotal("CA", 5, undefined, "Varios", 0, "Normal")).toEqual("El precio es un campo obligatorio");
+  });
 });
