@@ -50,6 +50,13 @@ class Totalizador {
       if (peso >= 0) return 0;
     }
 
+    descuentos_cliente = {
+      Normal: 0.00,
+      Recurrente: 0.005,
+      "Antiguo Recurrente": 0.01,
+      VIP: 0.015
+    }
+
     calcularPrecioNeto(cantidad, precio) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
@@ -117,7 +124,17 @@ class Totalizador {
       return "Costo de envio: $" + costoTotal;
     }
 
-    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0) {
+    calcularDescuentoEnvioCliente(tipoCliente, peso = 0, cantidad) {
+    const tarifa = this.obtenerTarifaEnvio(peso);
+    const costoEnvioBase = tarifa * cantidad;
+    const tasa = this.descuentos_cliente[tipoCliente] || 0;
+    const porcentajeTexto = (tasa * 100).toFixed(2);
+    const descuentoEnvio = Number.parseFloat((costoEnvioBase * tasa).toFixed(2));
+    
+    return "Descuento envio cliente " + tipoCliente + "(%" + porcentajeTexto + "): $" + descuentoEnvio;
+  }
+
+    calcularPrecioTotal(estado = "CA", cantidad, precio, categoria = "Varios", peso = 0, tipoCliente) {
       if (cantidad <= 0) {
         return "La cantidad es invalida";
       }  
@@ -145,8 +162,12 @@ class Totalizador {
       const descuentoCat = precioNeto * tasaDescuentoCat;
 
       const tarifa = this.obtenerTarifaEnvio(peso);
-      const costoEnvio = tarifa * cantidad
-      const precioTotal = precioNeto + impuesto + impuestoCat - descuento - descuentoCat + costoEnvio;
+      const costoEnvio = tarifa * cantidad;
+
+      const tasaDescuentoCli = this.descuentos_cliente[tipoCliente] || 0;
+      const descuentoTipoCli = costoEnvio * tasaDescuentoCli;
+      const costoEnvioFinal = costoEnvio - descuentoTipoCli;
+      const precioTotal = precioNeto + impuesto + impuestoCat - descuento - descuentoCat - descuentoTipoCli + costoEnvioFinal;
 
       return "Precio total (descuento e impuesto): $" + precioTotal;
     }

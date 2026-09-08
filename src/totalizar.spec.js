@@ -80,4 +80,9 @@ describe("Totalizador", () => {
     let totalizador = new Totalizador();
     expect(totalizador.calcularCostoEnvio(-15, 3)).toEqual("El peso es invalido");
   });
+
+  it("deberia devolver el descuento aplicado al costo de envío según el tipo de cliente.", () => {
+    let totalizador = new Totalizador();
+    expect(totalizador.calcularDescuentoEnvioCliente("Recurrente", 41, 10)).toEqual("Descuento envio cliente Recurrente(%0.50): $0.3");
+  });
 });

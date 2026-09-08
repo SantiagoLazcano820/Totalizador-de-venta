@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "63381cff3813f2ec6f85a46195f5e40e9df0b041",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-07T23:05:42.000Z",
       "message": "feat: Mostrar mensaje de error si el peso es invalido",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/63381cff3813f2ec6f85a46195f5e40e9df0b041"
     },
     "stats": {
       "total": 11,
@@ -338,6 +338,25 @@
     },
     "coverage": 80.85,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-08T04:31:06.000Z",
+      "message": "feat: Mostrar el descuento aplicado al costo segun el tipo de cliente",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 41,
+      "deletions": 4,
+      "date": "2026-09-08"
+    },
+    "coverage": 83.65,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

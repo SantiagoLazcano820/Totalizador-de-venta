@@ -566,9 +566,63 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "63381cff3813f2ec6f85a46195f5e40e9df0b041",
     "commitName": "feat: Mostrar mensaje de error si el peso es invalido",
     "commitTimestamp": 1788822342447,
     "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788834648476,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788835631430,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788837226213,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788837266717,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788838079449,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788841580891,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento aplicado al costo segun el tipo de cliente",
+    "commitTimestamp": 1788841866706,
+    "testId": 18
   }
 ]

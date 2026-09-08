@@ -7,6 +7,7 @@ const precio = document.querySelector("#precio");
 const estado = document.querySelector("#estado");
 const categoria = document.querySelector("#categoria");
 const peso = document.querySelector("#peso");
+const tipoCliente = document.querySelector("#tipo-cliente");
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 const cancelar = document.querySelector("#cancelar-button");
@@ -20,6 +21,7 @@ form.addEventListener("submit", (event) => {
   const est = estado.value;
   const cat = categoria.value;
   const pe = Number.parseInt(peso.value);
+  const tipoCli = tipoCliente.value;
 
   div.innerHTML = `
     <p>${totalizar.calcularPrecioNeto(cant, prec)}</p>
@@ -28,7 +30,8 @@ form.addEventListener("submit", (event) => {
     <p>${totalizar.calcularImpuesto(est, cant, prec)}</p>
     <p>${totalizar.calcularImpuestoCategoria(cat, cant, prec)}</p>
     <p>${totalizar.calcularCostoEnvio(pe, cant)}</p>
-    <p>${totalizar.calcularPrecioTotal(est, cant, prec, cat, pe)}</p>
+    <p>${totalizar.calcularDescuentoTipoCliente(tipoCli, pe, cant)}</p>
+    <p>${totalizar.calcularPrecioTotal(est, cant, prec, cat, pe, tipoCli)}</p>
   `;
 });
 
@@ -38,6 +41,7 @@ cancelar.addEventListener("click", () => {
   estado.value = "CA";
   categoria.value = "Varios";
   peso.value = "";
+  tipoCliente.value = "";
 
   div.innerHTML = `<p>${totalizar.cancelarCompra()}</p>`;
 });
