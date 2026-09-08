@@ -456,17 +456,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "455369538d175622948121d75ad3c6e59f875375",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-08T06:27:53.000Z",
       "message": "fix: error en el form del presenter",
-      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/455369538d175622948121d75ad3c6e59f875375"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-09-08"
+    },
+    "coverage": 85.59,
+    "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-08T14:03:13.000Z",
+      "message": "fix: error en el boton cancelar",
+      "url": "https://github.com/SantiagoLazcano820/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-08"
     },
     "coverage": 85.59,

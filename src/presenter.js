@@ -42,7 +42,7 @@ cancelar.addEventListener("click", () => {
   estado.value = "CA";
   categoria.value = "Varios";
   peso.value = "";
-  tipoCliente.value = "";
+  tipoCliente.value = "Normal";
 
   div.innerHTML = `<p>${totalizar.cancelarCompra()}</p>`;
 });

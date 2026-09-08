@@ -792,9 +792,23 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "455369538d175622948121d75ad3c6e59f875375",
     "commitName": "fix: error en el form del presenter",
     "commitTimestamp": 1788848873544,
     "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788876152343,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: error en el boton cancelar",
+    "commitTimestamp": 1788876193914,
+    "testId": 25
   }
 ]
